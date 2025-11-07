@@ -1,0 +1,337 @@
+body {
+    background-image: url(SPACE.jpg);
+    background-size: cover;
+}
+/*_____________________________________________________________*/
+@keyframes revolve {
+    to {transform: rotate(360deg);}
+}
+#space {
+    background-image: url(SPACE.jpg);
+    background-size: cover;
+    background-color: antiquewhite;
+    height: 800px;
+    width: 800px;
+    border: 4px solid white;
+    border-radius: 50px;
+    position: absolute;
+    left: 100px;
+    top: 55px;
+}
+.orbits {
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255,0.1);
+    position: absolute;
+}
+.planets {
+    border-radius: 50%;
+  
+    position: absolute;
+}
+#o1 { /*mercury*/
+    height: 150px;
+    width: 150px;
+    left: 325px;
+    bottom: 325px;
+    animation: revolve 0.72s linear 0s infinite normal;
+}
+#o2 { /*venus*/
+    height: 230px;
+    width: 230px;
+    left: 285px;
+    bottom: 285px;
+    animation: revolve 1.86s linear 0s infinite normal;
+}
+#o3 { /*earth*/
+    height: 300px;
+    width: 300px;
+    left: 250px;
+    bottom: 250px;
+    animation: revolve 3s linear 0s infinite normal;
+}
+#o4 { /*mars*/
+    height: 400px;
+    width: 400px;
+    left: 200px;
+    bottom: 200px;
+    animation: revolve 5.64s linear 0s infinite normal;
+}
+#o5 { /*jupiter*/
+    height: 525px;
+    width: 525px;
+    left: 137px;
+    bottom: 137px;
+    animation: revolve 35.58s linear 0s infinite normal;
+}
+#o6 { /*saturn*/
+    height: 576px;
+    width: 576px;
+    left: 112px;
+    bottom: 112px;
+    animation: revolve 88.38s linear 0s infinite normal;
+}
+#o7 { /*uranus*/
+    height: 650px;
+    width: 650px;
+    left: 75px;
+    bottom: 75px;
+    animation: revolve 252.03s linear 0s infinite normal;
+}
+#o8 {   /*neptune*/
+    height: 700px;
+    width: 700px;
+    left: 50px;
+    bottom: 50px;
+    animation: revolve 494.4s linear 0s infinite normal;
+}
+#o9 { /*pluto*/
+    height: 750px;
+    width: 750px;
+    left: 25px;
+    bottom: 25px;
+    animation: revolve 397.5s linear 0s infinite normal;
+}
+#p1 {/*mercury*/
+    background-image: url(MERCURY.png);
+    background-size: cover;
+    left: 70px;  
+    top: -6px; 
+    height: 6px;
+    width: 6px;          
+}        
+#p2 {/*venus*/
+    background-image: url(VENUS.png);
+    background-size: cover;
+    left: 110px;
+    top: -6px; 
+    height: 8px;
+    width: 8px; 
+}        
+#p3 {/*earth*/
+    background-image: url(EARTH.png);
+    background-size: cover;
+    left: 144px;
+    top: -8px; 
+    height: 12px;
+    width: 12px;               
+}        
+#p4 {/*mars*/
+    background-image: url(MARS.png);
+    background-size: cover;
+    left: 192px;
+    top: -9px; 
+    height: 14px;
+    width: 14px;     
+}        
+#p5 {/*jupiter*/
+    background-image: url(JUPITER.png);
+    background-size: cover;
+    left: 250px;
+    top: -14px; 
+    height: 24px;
+    width: 24px;   
+}        
+#p6 {/*saturn*/
+    background-image: url(SATURN.png);
+    background-size: cover;
+    left: 276px;
+    top: -14px; 
+    height: 20px;
+    width: 20px;   
+}
+#p7 {/*uranus*/
+    background-image: url(URANUS.png);
+    background-size: cover;
+    left: 314px;
+    top: -14px; 
+    height: 20px;
+    width: 20px;    
+}
+#p8 {/*neptune*/
+    background-image: url(NEPTUNE.png);
+    background-size: cover;
+    left: 340px;
+    top: -11px; 
+    height: 16px;
+    width: 16px;    
+}
+#p9 {/*pluto*/
+    background-image: url(PLUTO.png);
+    background-size: cover;
+    left: 370px;
+    top: -6px; 
+    height: 6px;
+    width: 6px;  
+}
+#sun {
+    background-image: url(SUN.png);
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    left: 360px;
+    bottom: 360px;
+    animation: revolve 200s linear 0s infinite normal;
+}
+/*__________model^______________________________________________*/
+#info {/*box*/
+    height: 780px;
+    width: 700px;
+    background-color: rgba(255, 525, 255, 0.3);
+    border: 15px solid rgba(173, 170, 170, 0.7);
+    border-radius: 50px;
+    position: absolute;
+    left: 1000px;
+    top: 55px;
+}
+.I {
+    height: 750px;
+    width: 500px;
+    border: 10px solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-radius: 35px;
+    position: absolute;
+    left: 6px;
+    bottom: 6px;
+    opacity: 0;
+}
+.buttons {
+    height: 36px;
+    width: 100px;
+    padding: 8px;
+    text-align: center;
+    font-size:25px;
+    background-color: rgba(145, 11, 254, 0.5);
+    border: 8px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+}
+.buttons:hover{
+    transform: scale(1.1);
+}
+#b0 {
+    top: 50px;
+}
+#b1 {
+    top: 120px;
+}
+#b2 {
+    top: 190px;
+}
+#b3 {
+    top: 260px;
+}
+#b4 {
+    top: 330px;
+}
+#b5 {
+    top: 400px;
+}
+#b6 {
+    top: 470px;
+}
+#b7 {
+    top: 540px;
+}
+#b8 {
+    top: 610px;
+}
+#b9 {
+    top: 680px;
+}
+#i10 {
+    height: 750px;
+    width: 500px;
+    background-color: rgb(137, 59, 151);
+    border: 10px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 10px 1px 20px rgb(137, 59, 151) ;
+    border-radius: 35px;
+    position: absolute;
+    left: 6px;
+    bottom: 6px;
+    z-index: 0;
+}
+#b0:hover ~ #i0 {
+    opacity: 1;
+    z-index: 2;
+    background-color: rgb(250, 146, 89);
+    box-shadow: 10px 1px 20px rgb(255, 232, 115) ;
+}
+#b1:hover ~ #i1 {
+    opacity: 1;
+    z-index: 2;
+    background-color: rgb(163, 220, 233);
+    box-shadow: 10px 1px 20px rgb(163, 220, 233) ;
+}
+#b2:hover ~ #i2 {
+    opacity: 1;
+    z-index: 2;
+    background-color: yellow;
+    box-shadow: 10px 1px 20px yellow ;
+}
+#b3:hover ~ #i3 {
+    opacity: 1;
+    z-index: 2;
+    background-color: rgb(69, 244, 197);
+    box-shadow: 10px 1px 20px rgb(69, 244, 197) ;
+}
+#b4:hover ~ #i4 {
+    opacity: 1;
+    z-index: 2;
+    background-color: rgb(246, 92, 92);
+    box-shadow: 10px 1px 20px rgb(246, 92, 92);
+}
+#b5:hover ~ #i5 {
+    opacity: 1;
+    z-index: 2;
+    background-color: brown;
+    box-shadow: 10px 1px 20px brown ;
+}
+#b6:hover ~ #i6 {
+    opacity: 1;
+    z-index: 2;
+    background-color: rgb(235, 210, 135);
+    box-shadow: 10px 1px 20px rgb(137, 59, 151) ;
+}
+#b7:hover ~ #i7 {
+    opacity: 1;
+    z-index: 2;
+    background-color: rgb(63, 187, 233);
+    box-shadow: 10px 1px 20px rgb(63, 187, 233) ;
+}
+#b8:hover ~ #i8 {
+    opacity: 1;
+    z-index: 2;
+    background-color: rgb(69, 134, 232);
+    box-shadow: 10px 1px 20px rgb(69, 134, 232);
+}
+#b9:hover ~ #i9 {
+    opacity: 1;
+    z-index: 2;
+    background-color: rgb(121, 71, 71);
+    box-shadow: 10px 1px 20px rgb(121, 71, 71);
+}
+.IMG {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    left: 75px;
+    bottom: 0px;
+}
+#img10 {
+    height: 250px;
+    width: 500px;
+    position: absolute;
+    bottom: 0px;
+    background-image: url(SPACE.jpg);
+    background-size: contain;
+    border-radius: 25px;
+}
+p {
+    padding: 10px;
+    font-size: 23px;
+    font-family: Arial, Helvetica;
+}
