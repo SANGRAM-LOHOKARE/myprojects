@@ -1,5 +1,5 @@
 body {
-    background-image: url(SPACE.jpg);
+    background-image: url(images/SPACE.jpg);
     background-size: cover;
 }
 /*_____________________________________________________________*/
@@ -7,7 +7,7 @@ body {
     to {transform: rotate(360deg);}
 }
 #space {
-    background-image: url(SPACE.jpg);
+    background-image: url(images/SPACE.jpg);
     background-size: cover;
     background-color: antiquewhite;
     height: 800px;
@@ -92,7 +92,7 @@ body {
     animation: revolve 397.5s linear 0s infinite normal;
 }
 #p1 {/*mercury*/
-    background-image: url(MERCURY.png);
+    background-image: url(images/MERCURY.png);
     background-size: cover;
     left: 70px;  
     top: -6px; 
@@ -100,7 +100,7 @@ body {
     width: 6px;          
 }        
 #p2 {/*venus*/
-    background-image: url(VENUS.png);
+    background-image: url(images/VENUS.png);
     background-size: cover;
     left: 110px;
     top: -6px; 
@@ -108,7 +108,7 @@ body {
     width: 8px; 
 }        
 #p3 {/*earth*/
-    background-image: url(EARTH.png);
+    background-image: url(images/EARTH.png);
     background-size: cover;
     left: 144px;
     top: -8px; 
@@ -116,7 +116,7 @@ body {
     width: 12px;               
 }        
 #p4 {/*mars*/
-    background-image: url(MARS.png);
+    background-image: url(images/MARS.png);
     background-size: cover;
     left: 192px;
     top: -9px; 
@@ -124,7 +124,7 @@ body {
     width: 14px;     
 }        
 #p5 {/*jupiter*/
-    background-image: url(JUPITER.png);
+    background-image: url(images/JUPITER.png);
     background-size: cover;
     left: 250px;
     top: -14px; 
@@ -132,7 +132,7 @@ body {
     width: 24px;   
 }        
 #p6 {/*saturn*/
-    background-image: url(SATURN.png);
+    background-image: url(images/SATURN.png);
     background-size: cover;
     left: 276px;
     top: -14px; 
@@ -140,7 +140,7 @@ body {
     width: 20px;   
 }
 #p7 {/*uranus*/
-    background-image: url(URANUS.png);
+    background-image: url(images/URANUS.png);
     background-size: cover;
     left: 314px;
     top: -14px; 
@@ -148,7 +148,7 @@ body {
     width: 20px;    
 }
 #p8 {/*neptune*/
-    background-image: url(NEPTUNE.png);
+    background-image: url(images/NEPTUNE.png);
     background-size: cover;
     left: 340px;
     top: -11px; 
@@ -156,7 +156,7 @@ body {
     width: 16px;    
 }
 #p9 {/*pluto*/
-    background-image: url(PLUTO.png);
+    background-image: url(images/PLUTO.png);
     background-size: cover;
     left: 370px;
     top: -6px; 
@@ -164,7 +164,7 @@ body {
     width: 6px;  
 }
 #sun {
-    background-image: url(SUN.png);
+    background-image: url(images/SUN.png);
     background-size: cover;
     border-radius: 50%;
     position: absolute;
@@ -326,7 +326,7 @@ body {
     width: 500px;
     position: absolute;
     bottom: 0px;
-    background-image: url(SPACE.jpg);
+    background-image: url(images/SPACE.jpg);
     background-size: contain;
     border-radius: 25px;
 }

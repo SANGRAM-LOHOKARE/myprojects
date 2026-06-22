@@ -1,0 +1,4 @@
+Solar system : 
+    # shows a solar system mode with 1: 10^7 platanary time ratio.
+    # presenting info on each planet when cursor hovers over it.
+    # using HTML and CSS only, handeling animations and events.
