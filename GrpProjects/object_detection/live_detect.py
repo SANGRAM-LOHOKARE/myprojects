@@ -17,7 +17,7 @@ while True:
     if not ret:
         print("Failed to grab camera frame.")
         break
-
+    frame = cv2.flip(frame, 1)  # Flip the frame horizontally
     # predicts the objects in the frame using the YOLO model
     results = model(frame, stream=True)
 
